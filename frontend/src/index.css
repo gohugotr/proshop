@@ -9,3 +9,14 @@ h3{
 .rating span{
   margin: 0.1rem; /* Rating yıldızlarının arasını açtık. */
 }
+.rating span span {
+  font-size: 0.8rem;
+}
+#product-list-name {
+  text-decoration:none;
+  cursor: pointer;
+}
+ #product-list-name:hover {
+  text-decoration:underline;
+  cursor: pointer;
+}

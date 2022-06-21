@@ -36,7 +36,7 @@ const Rating = ({ value, text, color }) => {
       </span>
       <span>
         {/* {text ? text: ''} bunun diğer bir yazılış şekli aşağıda  */}
-        {text && text}
+        <span>{text && text}</span>
       </span>
     </div>
   )

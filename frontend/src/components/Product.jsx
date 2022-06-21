@@ -10,13 +10,13 @@ const Product = ({ product }) => {
         <Card.Img src={product.image} variant='top'></Card.Img>
       </Link>
       <Card.Body>
-        <Link to={`/product/${product._id}`}>
+        <Link to={`/product/${product._id}`} id='product-list-name'>
           <Card.Title as='div'>
             <strong>{product.name}</strong>
           </Card.Title>
         </Link>
         <Card.Text as='div'>
-          <Rating value={product.rating} text={`${product.numReviews} reviews`} color='red' />
+          <Rating value={product.rating} text={`${product.numReviews} yorum`} color='red' />
           {/* <div className='my-3'>
             {product.rating} from {product.numReviews} reviews
           </div> */}
