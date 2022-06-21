@@ -1,6 +1,7 @@
 import HeaderPro from './components/HeaderPro'
 import FooterPro from './components/FooterPro'
 import {Container} from 'react-bootstrap'
+import HomeScreen from './screen/HomeScreen'
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       <HeaderPro />
       <main className='py-3'>
         <Container>
-          <h1>ProShop'a Hoşgeldiniz</h1>
+          <HomeScreen/>
         </Container>
       </main>
       <FooterPro />
