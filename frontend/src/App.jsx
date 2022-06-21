@@ -1,12 +1,15 @@
 import HeaderPro from './components/HeaderPro'
 import FooterPro from './components/HeaderPro'
+import {Container} from 'react-bootstrap'
 
 const App = () => {
   return (
     <>
       <HeaderPro />
       <main>
-        <h1>ProShop'a Hoşgeldiniz</h1>
+        <Container>
+          <h1>ProShop'a Hoşgeldiniz</h1>
+        </Container>
       </main>
       <FooterPro />
     </>
