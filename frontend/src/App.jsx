@@ -1,5 +1,5 @@
 import HeaderPro from './components/HeaderPro'
-import FooterPro from './components/HeaderPro'
+import FooterPro from './components/FooterPro'
 import {Container} from 'react-bootstrap'
 
 const App = () => {
