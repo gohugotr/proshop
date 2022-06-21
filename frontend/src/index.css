@@ -2,6 +2,10 @@ main {
   min-height: 80vh; /* Copyright aşşağı indi, */
 }
 
+h3{
+  padding: 1rem 0;
+}
+
 .rating span{
   margin: 0.1rem; /* Rating yıldızlarının arasını açtık. */
 }
