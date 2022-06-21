@@ -1,3 +1,7 @@
 main {
   min-height: 80vh; /* Copyright aşşağı indi, */
 }
+
+.rating span{
+  margin: 0.1rem; /* Rating yıldızlarının arasını açtık. */
+}
