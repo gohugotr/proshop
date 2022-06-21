@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "private": true,
-  "homepage": "https://github.com/gohugotr/proshop/",
+  "homepage": "https://github.com/gohugotr/proshop/frontend/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
