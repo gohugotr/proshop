@@ -3,7 +3,7 @@ import products from '../products'
 import { useParams } from 'react-router-dom'
 
 
-const ProductScreen = (props) => {
+const ProductScreen = () => {
   let { id } = useParams();
   const product = products.find((p) => p._id === id);
   return (
