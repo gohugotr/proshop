@@ -12,4 +12,5 @@ export default defineConfig({
     },
   },
   base: '/proshop/',
+  publicDir: 'public',
 })
